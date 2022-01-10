@@ -1,0 +1,272 @@
+/* @font-face { */
+/* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+/* font-family: "wfont_7aa6cb_703df1c41b094d9780d6a253f4e935fb"; */
+/* // адрес шрифта и тип  */
+/* src: url("./assets/fonts/9VWMTeb5jtXkNoTv949Npfk_vArhqVIZ0nv9q090hN8.woff2") */
+/* format("woff2"); */
+/* font-style: normal;  */
+/* font-weight: normal;  */
+/* } */
+
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucXtAOvWDSHFF.woff2)
+      format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Poppins Italic"), local("Poppins-Italic"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VFteOYktMqlap.woff2)
+      format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VGdeOYktMqlap.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Poppins Bold Italic"), local("Poppins-BoldItalic"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2)
+      format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2)
+      format("woff2");
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+    U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"),
+    url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2)
+      format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+@font-face {
+  font-display: block;
+  font-family: "DIN-Next-W01-Light";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix")
+      format("eot"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff")
+      format("woff"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf")
+      format("truetype"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694")
+      format("svg");
+}
+@font-face {
+  font-display: block;
+  font-family: "DIN-Next-W02-Light";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/48e5a0e1-2d56-46e5-8fc4-3d6d5c973cbf.eot?#iefix");
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/48e5a0e1-2d56-46e5-8fc4-3d6d5c973cbf.eot?#iefix")
+      format("eot"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/07d62b21-8d7a-4c36-be86-d32ab1089972.woff")
+      format("woff"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c0050890-bbed-44b9-94df-2611d72dbb06.ttf")
+      format("truetype"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/9f774d17-c03a-418e-a375-34f3beecbc7a.svg#9f774d17-c03a-418e-a375-34f3beecbc7a")
+      format("svg");
+}
+@font-face {
+  font-display: block;
+  font-family: "DIN-Next-W10-Light";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3d009cd7-c8fe-40c0-93da-74f4ea8c530b.eot?#iefix");
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/3d009cd7-c8fe-40c0-93da-74f4ea8c530b.eot?#iefix")
+      format("eot"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/a9e95a29-98a7-404a-90ee-1929ad09c696.woff")
+      format("woff"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0a7663fd-eae8-4e50-a67a-225271f8cceb.ttf")
+      format("truetype"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/58ae9be9-5d95-44b6-8b6c-e6da6a46822c.svg#58ae9be9-5d95-44b6-8b6c-e6da6a46822c")
+      format("svg");
+}
+@font-face {
+  font-display: block;
+  font-family: "Avenir-LT-W01_35-Light1475496";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix")
+      format("eot"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2")
+      format("woff2"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff")
+      format("woff"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf")
+      format("truetype"),
+    url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c")
+      format("svg");
+}
+@font-face {
+  font-family: "Avenir-LT-W05_35-Light";
+  src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff2")
+      format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff")
+      format("woff");
+}
+
+@font-face {
+  font-display: block;
+  font-family: "Barlow-ExtraLight";
+  src: url("//fonts.gstatic.com/s/barlow/v1/51v0xj5VPw1cLYHNhfd8NPY6323mHUZFJMgTvxaG2iE.eot?#iefix");
+  src: url("//fonts.gstatic.com/s/barlow/v1/51v0xj5VPw1cLYHNhfd8NPY6323mHUZFJMgTvxaG2iE.eot?#iefix")
+      format("eot"),
+    url("//fonts.gstatic.com/s/barlow/v1/51v0xj5VPw1cLYHNhfd8NFtXRa8TVwTICgirnJhmVJw.woff2")
+      format("woff2"),
+    url("//fonts.gstatic.com/s/barlow/v1/51v0xj5VPw1cLYHNhfd8ND8E0i7KZn-EPnyo3HZu7kw.woff")
+      format("woff"),
+    url("//fonts.gstatic.com/s/barlow/v1/51v0xj5VPw1cLYHNhfd8NKCWcynf_cDxXwCLxiixG1c.ttf")
+      format("truetype"),
+    url("//fonts.gstatic.com/l/font?kit=51v0xj5VPw1cLYHNhfd8NJbd9NUM7myrQQz30yPaGQ4&skey=e8c74abecf94633e&v=v1#Barlow")
+      format("svg");
+}
+@font-face {
+  font-display: block;
+  font-family: "Barlow-ExtraLight";
+  font-weight: 700;
+  src: url("//fonts.gstatic.com/s/barlow/ /SWLcTgmyMR1GjdNjixEPiQ.eot?#iefix");
+  src: url("//fonts.gstatic.com/s/barlow/v1/SWLcTgmyMR1GjdNjixEPiQ.eot?#iefix")
+      format("eot"),
+    url("//fonts.gstatic.com/s/barlow/v1/2woyxyDnPU0v4IiqYU9D1g.woff2")
+      format("woff2"),
+    url("//fonts.gstatic.com/s/barlow/v1/-HJgNsTwx9qXGSxqew62RQ.woff")
+      format("woff"),
+    url("//fonts.gstatic.com/s/barlow/v1/qoExc9IJQUjYXhlVZNNLgg.ttf")
+      format("truetype"),
+    url("//fonts.gstatic.com/l/font?kit=lYNHuF7-w_9_po3MKWoAsw&skey=32d7acf8757dbad0&v=v1#Barlow")
+      format("svg");
+}
+@font-face {
+  font-display: block;
+  font-family: "Barlow-ExtraLight";
+  font-style: italic;
+  src: url("//fonts.gstatic.com/s/barlow/v1/14AxwKgJhKIO-YYUP_KtZeZiE7IA0Up7-VwGqa0iGVY.eot?#iefix");
+  src: url("//fonts.gstatic.com/s/barlow/v1/14AxwKgJhKIO-YYUP_KtZeZiE7IA0Up7-VwGqa0iGVY.eot?#iefix")
+      format("eot"),
+    url("//fonts.gstatic.com/s/barlow/v1/14AxwKgJhKIO-YYUP_KtZag5eI2G47JWe0-AuFtD150.woff2")
+      format("woff2"),
+    url("//fonts.gstatic.com/s/barlow/v1/14AxwKgJhKIO-YYUP_KtZdIh4imgI8P11RFo6YPCPC0.woff")
+      format("woff"),
+    url("//fonts.gstatic.com/s/barlow/v1/14AxwKgJhKIO-YYUP_KtZV02b4v3fUxqf9CZJ1qUoIA.ttf")
+      format("truetype"),
+    url("//fonts.gstatic.com/l/font?kit=14AxwKgJhKIO-YYUP_KtZZS_ZaL0arjVp2tkn2-HJhM&skey=9a40589dc4645af7&v=v1#Barlow")
+      format("svg");
+}
+@font-face {
+  font-display: block;
+  font-family: "Barlow-ExtraLight";
+  font-weight: 700;
+  font-style: italic;
+  src: url("//fonts.gstatic.com/s/barlow/v1/8p49G4DnpMZgB5cGwNFgJvesZW2xOQ-xsNqO47m55DA.eot?#iefix");
+  src: url("//fonts.gstatic.com/s/barlow/v1/8p49G4DnpMZgB5cGwNFgJvesZW2xOQ-xsNqO47m55DA.eot?#iefix")
+      format("eot"),
+    url("//fonts.gstatic.com/s/barlow/v1/cdbGxfKO8gdkBd5U5TuXqPesZW2xOQ-xsNqO47m55DA.woff2")
+      format("woff2"),
+    url("//fonts.gstatic.com/s/barlow/v1/W1XpMGU0WrpbCawEdG1FM_esZW2xOQ-xsNqO47m55DA.woff")
+      format("woff"),
+    url("//fonts.gstatic.com/s/barlow/v1/_lIpJP17FZmSeklpAeOdnvesZW2xOQ-xsNqO47m55DA.ttf")
+      format("truetype"),
+    url("//fonts.gstatic.com/l/font?kit=MGR_1eUqfxpTc1K5cbfqWvesZW2xOQ-xsNqO47m55DA&skey=ae428d300932fbee&v=v1#Barlow")
+      format("svg");
+}
