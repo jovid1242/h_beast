@@ -1,7 +1,6 @@
 .banner {
-  transition: 5s;
   animation-name: animateBanner;
-  animation-duration: 4s;
+  animation-duration: 7s;
 }
 
 @keyframes animateBanner {
