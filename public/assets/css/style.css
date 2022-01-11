@@ -22,6 +22,9 @@
   font-family: "Russo One", sans-serif; */
   font-family: "Poppins";
 }
+a {
+  color: #fff !important;
+}
 
 ul {
   margin: 0;
