@@ -17,7 +17,7 @@ export default function Home() {
               <span className="text_t">
                 8K NEXT-GENERATION, HIGH FASHION HAPES
               </span>
-              <span class="text_s">
+              <span className="text_s">
                 Unique, fully 3D and built to unite the ape multiverse.Designed
                 and styled by <a href="#">Digimental</a>.
               </span>
@@ -47,8 +47,8 @@ export default function Home() {
               <li>
                 <span className="text">
                   Meanwhile, at the heart of the shattered multiverse, the{" "}
-                  <span class="bold_text">PRIMAL HAPES</span> wait htmlFor the
-                  whole family to return. They wait and they build out their
+                  <span className="bold_text">PRIMAL HAPES</span> wait htmlFor
+                  the whole family to return. They wait and they build out their
                   style, they work the Hapewalk, and they plan htmlFor a bigger
                   future.
                 </span>
@@ -85,12 +85,12 @@ export default function Home() {
               <li>
                 <span className="text">
                   You can find out more about the{" "}
-                  <span class="bold_text">HAPEBEAST</span> team below and see
-                  the lightest hints htmlFor our post-release plans. As we move
-                  closer to launch this site will evolve; like apes at the dawn
-                  of a new world we’re making something from nothing, noise from
-                  silence. In the beginning was the word. The word was, and is,{" "}
-                  <span className="bold_text">HAPE</span>.
+                  <span className="bold_text">HAPEBEAST</span> team below and
+                  see the lightest hints htmlFor our post-release plans. As we
+                  move closer to launch this site will evolve; like apes at the
+                  dawn of a new world we’re making something from nothing, noise
+                  from silence. In the beginning was the word. The word was, and
+                  is, <span className="bold_text">HAPE</span>.
                 </span>
               </li>
             </ul>

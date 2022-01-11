@@ -80,6 +80,13 @@
     justify-content: center;
     align-items: center;
   }
+  .banner_3 {
+    height: 280px;
+    background-image: url(../img/ban3_3.png);
+  }
+  .team_section {
+    padding: 43px 0 0 0;
+  }
   .footer {
     height: auto;
   }
@@ -218,19 +225,34 @@
   }
   .banner_3 {
     height: 280px;
-    background-position-x: center;
-  }
-  .team_wrapper .title {
-    width: auto;
-    font-size: 36px;
+    background-image: url(../img/ban3_3.png);
   }
   .team_wrapper .t_card {
     width: auto;
   }
+
+  .team_wrapper .title {
+    width: 50% !important;
+    width: auto;
+    font-size: 36px;
+  }
+  .team_wrapper .title {
+    margin-bottom: 35px;
+  }
   .teams {
     gap: 5px;
   }
-
+  .ts_card .icons img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  }
+  .team_wrapper .t_card .icons {
+    width: 120px;
+  }
+  .moderetion_team .head h2 {
+    margin-top: 12px;
+  }
   .ts_card {
     width: 178px;
   }
@@ -253,14 +275,20 @@
     font-size: 11px;
   }
   .mt_item h4 {
-    font-size: 9px;
+    font-size: 10px;
   }
   .footer {
     height: auto;
   }
   .f_main {
-    padding: 20px 45px;
+    padding: 45px 45px 15px 45px;
     flex-direction: column;
+  }
+  .box2 .contacts {
+    height: 50px;
+  }
+  .box2 .contacts a {
+    font-size: 12px;
   }
   .box1 {
     width: auto;
@@ -279,11 +307,14 @@
   }
   .box1 h4 {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: normal;
+  }
+  .box2 .contacts h4 {
+    margin-bottom: 0;
   }
   .footer_wrapper p {
     font-size: 9px;
-    margin-left: 45px;
+    margin: 0 0 45px 45px;
   }
 }
