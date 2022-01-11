@@ -7,8 +7,8 @@ export default function Home() {
       <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
-        data-aos-delay="400"
-        data-aos-offset="2"
+        data-aos-delay="500"
+        data-aos-offset="500"
       >
         <div className="banner">
           <div className="banner_wrapper">

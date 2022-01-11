@@ -327,6 +327,10 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+.team_wrapper .t_card .icons img {
+  width: 25px;
+  height: 25px;
+}
 
 .teams {
   width: 100%;
@@ -364,6 +368,11 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ts_card .icons img {
+  width: 25px;
+  height: 25px;
 }
 
 /* and team_section */
