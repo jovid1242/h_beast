@@ -101,7 +101,7 @@ export default function Home() {
       <div className="roadmap_section">
         <div className="container">
           <div className="r_wrapper">
-            <h2>ROADMAP TEASER</h2>
+            <h2 className="r_w_title">ROADMAP TEASER</h2>
             <div className="cards">
               <div className="card">
                 <img src="./assets/img/c1.png" alt="img alt" />

@@ -92,6 +92,7 @@ li {
 /* start info section  */
 
 .info_section {
+  position: relative;
   width: 100%;
   height: 600px;
   background: #131313;
@@ -99,7 +100,9 @@ li {
   justify-content: center;
   align-items: center;
 }
-
+.info_section::before {
+  position: absolute;
+}
 .text_wrapper {
   width: 57.5%;
   padding: 100px;
@@ -278,7 +281,7 @@ li {
 .team_section {
   width: 100%;
   background: #fff;
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 .team_wrapper .title {
   width: 50%;
@@ -290,7 +293,7 @@ li {
   margin-bottom: 50px;
 }
 .team_wrapper .t_card {
-  width: 28%;
+  width: 27%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -309,11 +312,16 @@ li {
 .team_wrapper .t_card p {
   margin-top: 20px;
   text-align: center;
+  color: #000000;
+  font-family: barlow-extralight, barlow, sans-serif;
+  font-weight: normal;
   font-size: 16px;
-  color: rgb(116, 116, 116);
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0em;
 }
 .team_wrapper .t_card .icons {
-  width: 100px;
+  width: 80px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -401,14 +409,15 @@ li {
   flex-direction: column;
 }
 .mt_item h2 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
   text-align: center;
 }
 .mt_item h4 {
+  width: 58%;
   margin-top: 5px;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 10px;
+  font-weight: normal;
   text-align: center;
 }
 /* and moderetion_team */
