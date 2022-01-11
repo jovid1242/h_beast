@@ -1,37 +1,31 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import "../styles/animationBanner.css";
 
 export default function Home() {
   return (
     <>
-      <div
+      {/* <div
         data-aos="fade-zoom-in"
         data-aos-easing="ease-in-back"
         data-aos-delay="500"
         data-aos-offset="500"
-      >
-        <div className="banner">
-          <div className="banner_wrapper">
-            <div
-              data-aos="fade-zoom-in"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="800"
-              data-aos-offset="250"
-            >
-              <div className="textElem">
-                <span className="title">HAPEBEAST</span>
-                <span className="text_t">
-                  8K NEXT-GENERATION, HIGH FASHION HAPES
-                </span>
-                <span className="text_s">
-                  Unique, fully 3D and built to unite the ape
-                  multiverse.Designed and styled by <a href="#">Digimental</a>.
-                </span>
-              </div>
-            </div>
+      > */}
+      <div className="banner">
+        <div className="banner_wrapper">
+          <div className="textElem">
+            <span className="title">HAPEBEAST</span>
+            <span className="text_t">
+              8K NEXT-GENERATION, HIGH FASHION HAPES
+            </span>
+            <span className="text_s">
+              Unique, fully 3D and built to unite the ape multiverse.Designed
+              and styled by <a href="#">Digimental</a>.
+            </span>
           </div>
         </div>
       </div>
+      {/* </div> */}
 
       <div className="info_section">
         <div className="container">

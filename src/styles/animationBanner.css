@@ -1,0 +1,14 @@
+.banner {
+  transition: 5s;
+  animation-name: animateBanner;
+  animation-duration: 4s;
+}
+
+@keyframes animateBanner {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
