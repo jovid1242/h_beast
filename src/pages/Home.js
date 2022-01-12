@@ -61,11 +61,12 @@ export default function Home() {
       <div className="video_section">
         {/* <video height="100%" src="./assets/video/file.mp4" autoplay></video> */}
         <ReactPlayer
-          url="./assets/video/file.mp4"
+          url="https://video.wixstatic.com/video/7aa6cb_21bf51ca9ff54e399843757ae3a0903f/1080p/mp4/file.mp4"
           width={"100%"}
-          height={"650px"}
+          height={"850px"}
           loop={true}
           playing={true}
+          muted={true}
         />
       </div>
 
