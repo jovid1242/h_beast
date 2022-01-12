@@ -5,22 +5,35 @@
   justify-content: center;
   align-items: center;
 }
+
 .banner_btn button {
   position: relative;
   width: 200px;
-  height: 65px;
+  height: 45px;
   border: none;
   outline: none;
-  margin-right: 10px;
+  margin-right: 25px;
   font-size: 21px;
-  /* font-weight: bold; */
+  font-weight: normal;
   color: #fff;
-  background: linear-gradient(to top, #00000091, #000000ec);
+  cursor: pointer;
+  /* background: linear-gradient(to top, #00000091, #000000ec); */
+  background: #000;
   border-radius: 2px;
   text-align: center;
   transition: 0.5s ease-in-out;
+  z-index: 2;
 }
-.banner_btn button:hover {
-  background: #000;
+
+.banner_btn button:after {
+  position: absolute;
+  content: "";
+  width: 195px;
+  height: 40px;
+  z-index: 1;
+  border: 3px solid #000;
+  background: transparent;
+  left: -8px;
+  bottom: -8px;
   transition: 0.5s ease-in-out;
 }
