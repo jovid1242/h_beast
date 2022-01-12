@@ -30,8 +30,8 @@ function Payment(props) {
     };
     return (
         <div className="banner_btn">
-            <button onClick={() => pay(2)}>Bay 2 NFT</button>
-            <button onClick={() => pay(1)}>Bay 1 NFT</button>
+            <button onClick={() => pay(2)}>Buy 2 NFT</button>
+            <button onClick={() => pay(1)}>Buy 1 NFT</button>
         </div>
     );
 }
