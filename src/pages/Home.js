@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import Payment from "../components/Payment";
 import "../styles/animationBanner.css";
 import "../styles/button.css";
 
@@ -23,10 +24,7 @@ export default function Home() {
               Unique, fully 3D and built to unite the ape multiverse.Designed
               and styled by <a href="#">Digimental</a>.
             </span>
-            <div className="banner_btn">
-              <button>Отправить</button>
-              <button>Отправить</button>
-            </div>
+            <Payment />
           </div>
         </div>
       </div>

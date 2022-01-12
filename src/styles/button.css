@@ -8,12 +8,12 @@
 .banner_btn button {
   position: relative;
   width: 200px;
-  height: 45px;
+  height: 65px;
   border: none;
   outline: none;
   margin-right: 10px;
   font-size: 21px;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #fff;
   background: linear-gradient(to top, #00000091, #000000ec);
   border-radius: 2px;
