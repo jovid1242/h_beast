@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "../styles/animationBanner.css";
+import "../styles/button.css";
 
 export default function Home() {
   return (
@@ -22,6 +23,10 @@ export default function Home() {
               Unique, fully 3D and built to unite the ape multiverse.Designed
               and styled by <a href="#">Digimental</a>.
             </span>
+            <div className="banner_btn">
+              <button>Отправить</button>
+              <button>Отправить</button>
+            </div>
           </div>
         </div>
       </div>
