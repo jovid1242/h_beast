@@ -64,6 +64,11 @@ li {
   display: flex;
   flex-direction: column;
 }
+.textElem img {
+    width: 1000px;
+    height: 298px;
+    margin-left: -203px;
+}
 .textElem .title {
   font-size: 96px;
   font-weight: 900;
