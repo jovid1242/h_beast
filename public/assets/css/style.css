@@ -65,9 +65,9 @@ li {
   flex-direction: column;
 }
 .textElem img {
-    width: 1000px;
-    height: 298px;
-    margin-left: -203px;
+            width: 790px;
+    height: 200px;
+    margin-left: -129px;
 }
 .textElem .title {
   font-size: 96px;
