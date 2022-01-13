@@ -16,7 +16,7 @@ export default function Home() {
       <div className="banner">
         <div className="banner_wrapper">
           <div className="textElem">
-            <span className="title">HAPEBEAST</span>
+            <img src="./assets/img/logo.png" alt="img alt" />
             <span className="text_t">
               8K NEXT-GENERATION, HIGH FASHION HAPES
             </span>

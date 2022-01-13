@@ -25,13 +25,19 @@ function Payment(props) {
         const price = 0.001
         await startPayment({
             ether: String(e * price),
-            addr: '0x5fE74C1c71b222db34Cb1aA98EAE8B78d7982595'
+            addr: '0x8848EEA247FeB4876a03E1bDCad656B1441425f7'
         });
     };
     return (
         <div className="banner_btn">
-            <button onClick={() => pay(2)}>Bay 2 NFT</button>
-            <button onClick={() => pay(1)}>Bay 1 NFT</button>
+            <div>
+          <button onClick={() => pay(2)}>Buy 2 NFT</button>
+          <p className='price'>PRICE: 0.4 ETH</p>
+            </div>
+            <div>
+              <button onClick={() => pay(1)}>Buy 1 NFT</button>
+          <p className='price'>PRICE: 0.2 ETH</p>
+            </div>
         </div>
     );
 }
