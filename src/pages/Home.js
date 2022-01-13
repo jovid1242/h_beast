@@ -434,13 +434,13 @@ export default function Home() {
                 <div className="icons_f">
                   <h4>FOLLOW US</h4>
                   <div className="ic_img">
-                    <a href="#">
+                    <a href="http://discord.gg/hapebeast">
                       <img src="./assets/img/ic1.png" alt="" />
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/HAPEBEASTGANG">
                       <img src="./assets/img/ic2.png" alt="" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.instagram.com/hapebeastgang/">
                       <img src="./assets/img/ic3.png" alt="" />
                     </a>
                   </div>
