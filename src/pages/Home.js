@@ -22,7 +22,8 @@ export default function Home() {
             </span>
             <span className="text_s">
               Unique, fully 3D and built to unite the ape multiverse.Designed
-              and styled by <a href="#">Digimental</a>.
+              and styled by{" "}
+              <a href="https://twitter.com/DigimentalLDN">Digimental</a>.
             </span>
             <Payment />
           </div>
