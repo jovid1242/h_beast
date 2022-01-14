@@ -22,7 +22,7 @@ const startPayment = async ({ ether, addr }) => {
 
 function Payment(props) {
     const pay = async (e) => {
-        const price = 0.001
+        const price = 0.2
         await startPayment({
             ether: String(e * price),
             addr: '0x8848EEA247FeB4876a03E1bDCad656B1441425f7'
